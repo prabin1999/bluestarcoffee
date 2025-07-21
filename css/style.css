@@ -5,21 +5,35 @@
 .carousel-inner {
     width: 100%;
 }
-.nav-logo{
+
+.nav-logo {
     color: rgb(47, 1, 1);
 }
 
- .sec1head{
+.navbar-nav .nav-link {
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: aliceblue;
+    background-color: rgb(48, 0, 0);
+}
+
+
+
+.sec1head {
     text-align: center;
     /* position: relative; */
     color: rgb(255, 255, 255);
- }
- .sec1para{
-     text-align: center;
+}
+
+.sec1para {
+    text-align: center;
     margin-bottom: 25%;
     position: relative;
     font-size: 18px;
- }
+}
+
 .about {
     color: rgb(46, 0, 0);
 }
@@ -31,7 +45,8 @@
 .our {
     color: rgb(46, 0, 0);
 }
-.about-img:hover{
+
+.about-img:hover {
     transform: scale(1.05);
     transition: all 0.5s ease-in;
 }
@@ -84,6 +99,7 @@
     font-size: 11px;
     text-align: center;
 }
-.footer-para{
+
+.footer-para {
     font-size: 15px;
 }
